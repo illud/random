@@ -1,7 +1,16 @@
 # random
 Random string and int generator for Go programming
 
-EXAMPLE
+#Installation
+  1. Get the package
+  
+    $ go get github.com/saturnavt/random
+    
+  2. Import it in your code:
+  
+    import "github.com/saturnavt/random"
+
+#Quick start
 
 Random String
 
