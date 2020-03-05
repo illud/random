@@ -13,7 +13,7 @@ Random String
     )
 
     func main() {
-      fmt.Println(random.randomString(12)) //Change 12 for your own string length, output example 'rlJlGUgEpLnE'
+      fmt.Println(random.RandomString(12)) //Change 12 for your own string length, output example 'rlJlGUgEpLnE'
     }
     
 random Integer
@@ -26,5 +26,5 @@ random Integer
     )
 
     func main() {
-      fmt.Println(random.randomNumber(80, 0)) //80 is the maximun number and 0 the minimun number,change for your own max and minimun, output example '25'
+      fmt.Println(random.RandomNumber(80, 0)) //80 is the maximun number and 0 the minimun number,change for your own max and minimun, output example '25'
     }
