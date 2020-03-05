@@ -5,7 +5,7 @@ import (
   "time"
 )
 
-func randomString(count int) string{
+func RandomString(count int) string{
   var arr = []string{"a","b","c","d","e","f","g","h","i","j","l","m","n","o","p","q","r","s","t","w","x","y","z","A","B","C","D","E","F","G","H","I","J","L","M","N","O","P","Q","R","S","T","W","X","Y","Z"}
   var randomString string
 
@@ -18,7 +18,7 @@ func randomString(count int) string{
   return randomString
 }
 
-func randomNumber(max int, min int) int{
+func RandomNumber(max int, min int) int{
   rand.Seed(time.Now().UnixNano())
   
   return rand.Intn(max - min + 1)
