@@ -35,5 +35,5 @@ random Integer
     )
 
     func main() {
-      fmt.Println(random.RandomNumber(80, 0)) //80 is the maximun number and 0 the minimun number,change for your own max and minimun, output example '25'
+      fmt.Println(random.RandomNumber(0, 80)) //80 is the maximun number and 0 the minimun number,change for your own max and minimun, output example '25'
     }
