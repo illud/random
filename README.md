@@ -4,11 +4,11 @@ Random string and int generator for Go programming
 #Installation
   1. Get the package
   
-    $ go get github.com/saturnavt/random
+    $ go get github.com/illud/random
     
   2. Import it in your code:
   
-    import "github.com/saturnavt/random"
+    import "github.com/illud/random"
 
 #Quick start
 
@@ -18,7 +18,7 @@ Random String
 
     import (
       "fmt"
-      "github.com/saturnavt/random"
+      "github.com/illud/random"
     )
 
     func main() {
@@ -31,7 +31,7 @@ random Integer
 
     import (
       "fmt"
-      "github.com/saturnavt/random"
+      "github.com/illud/random"
     )
 
     func main() {
